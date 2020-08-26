@@ -20,7 +20,7 @@ public class CheckPrimeNumber {
 	{
 
 		// input a number to examine whether Prime or Not
-		System.out.println("Enter number upto which Fibonacci series to print: ");
+		System.out.println("Enter a number to check whether it is a Prime number or not: ");
 		int number = new Scanner(System.in).nextInt();
 
 		checkIfPrime(number);
