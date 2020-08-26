@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 /**
  * @author Ananda
- * This is another very common program to practice condition statement
+ * This is another very common program to practice loop and condition statement
  * This program will validate whether a given number is Prime or not
  * A prime number is a number which is not divisible by any other number, e.g. 3, 5, 7, 11, 13, 17,
  */

@@ -14,11 +14,10 @@ import java.util.Scanner;
  * 
  * This program will calculate and print first "N" Fibonacci number where "N" will be input by user
  */
-public class FibonacciSeries {
+public class FibonacciSeries 
+{
 
-	/**
-	 * @param args
-	 */
+
 	public static void main(String[] args) 
 	{
 		//input to print Fibonacci series upto how many numbers 
@@ -31,30 +30,31 @@ public class FibonacciSeries {
 	}
 
 	//Fibonacci number is sum of previous two Fibonacci numbers fn= fn-1+ fn-2
-	public static void calculateFibonacci(int n) 
+	public static void calculateFibonacci(int num) 
 	{
 		int fibo1 =0;
 		int fibo2= 1;
 		int fibonacci=0; //initialize the number
-		System.out.println("Fibonacci series upto " +n + " is as follows:");
+		System.out.println("Fibonacci series upto " + num + " is as follows:");
 		
 		//If the input number is 1,  Print 1
-		if(n == 1)
+		if(num == 1)
 		{ 
 			System.out.println(0); 
 			
 		} 
 		//When the input number is = 2
-		else if(n == 2)
+		else if(num == 2)
 		{
 			System.out.println(0 + " " +1);
 		}
 		//When the input number is more than 2
 		else
 		{
+			//Print first 2 numbers of the Series
 			System.out.println(fibo1 + "\n" + fibo2);
 	
-			for(int i= 3; i<= n; i++)
+			for(int i= 3; i<= num; i++)
 			{ 
 				//Fibonacci number is sum of previous two Fibonacci number 
 				fibonacci = fibo1 + fibo2; 
