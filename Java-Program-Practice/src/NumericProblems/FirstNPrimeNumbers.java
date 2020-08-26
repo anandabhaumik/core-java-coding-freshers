@@ -23,7 +23,7 @@ public class FirstNPrimeNumbers
 		while(ch!='n')
 		{
 			//input a number to examine whether Prime or Not 
-			System.out.println("Enter number upto which Fibonacci series to print: "); 
+			System.out.println("Enter a number to check whether it is a Prime or not: "); 
 			number = new Scanner(System.in).nextInt();
 			
 			displayFirstNPrimeNumbers(number);
