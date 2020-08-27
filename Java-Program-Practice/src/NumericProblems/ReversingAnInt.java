@@ -30,7 +30,7 @@ public class ReversingAnInt {
 	{
 		
 		int temp, c, reverse =0;
-		temp = num;
+		// temp = num;
 		
 		while(num>0)
 		{
